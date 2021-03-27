@@ -1,0 +1,170 @@
+.homebanner{
+    background-image: url(/assets/images/banner.png);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+   background-position: center;
+}
+@media screen and (max-width: 767px){
+.homebanner {
+    height: 250px;
+}
+}
+.left_img{
+    width: 100%;
+}
+.btn{
+    background: transparent;
+    /* padding: 14px; */
+    margin-top: 3px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    color: #707070;
+    border: 2px solid #707070;
+}
+.h1{
+    color: #303E47;
+    font-size: 40px;
+    /* font-family: "museo"; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+@media screen and (max-width: 480px){
+    .h1 {
+        color: #303E47;
+        font-size: 25px;
+        /* font-family: "museo"; */
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+    }
+    .order-now{
+        bottom: 40px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        background-color: white;
+        padding:5px 15px;
+        position: absolute;
+        z-index: 99;
+        border: white;
+        color: #303E47;;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    @media screen and (max-width: 480px){
+        .order-now {
+          width: 100%;
+        }
+    }
+    .pindi-chole{
+        position: relative;
+    }
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 20px;
+        background-color: #303E47;;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        color: white;
+        transition: .5s ease;
+      }
+     
+      .pindi-chole:hover .overlay {
+        height: 82%;
+        bottom: 0;
+   
+      }
+      @media only screen and  (max-width: 1257px)
+      {
+      .pindi-chole:hover .overlay {
+        height: 82%;
+        bottom: 0;
+   
+      }
+    }
+    @media only screen and  (min-width: 1257px)
+    {
+    .pindi-chole:hover .overlay {
+      height: 82%;
+      bottom: 0;
+ 
+    }
+  }
+    @media only screen and (max-width: 842px)
+    {
+    .pindi-chole:hover .overlay {
+      height: 85%;
+      bottom: 0;
+ 
+    }
+  }
+  @media only screen and (max-width: 772px)
+  {
+  .pindi-chole:hover .overlay {
+    height: 75%;
+    bottom: 0;
+
+  }
+  
+}
+
+  @media only screen and  (max-width: 698px)
+  {
+  .pindi-chole:hover .overlay {
+    height: 88%;
+    bottom: 0;
+
+  }
+}
+
+@media only screen and  (max-width: 576px){
+.pindi-chole:hover .overlay {
+    height: 86%;
+    bottom: 0;
+
+  } }   
+  @media only screen and (max-width: 480px){
+    .pindi-chole:hover .overlay {
+        height: 85%;
+        bottom: 0;
+    
+      } } 
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .signature{
+        color: #707070;
+        position: absolute;
+        top: 105px;
+        background: #fff;
+        font-size: 15px;
+        padding: 4px 11px 3px 12px;
+        border-radius: 0 10px 10px 0px;
+        font-weight: 500;
+      }
+     .pindi-chole .h2{
+        font-size: 24px;
+         height: 74px;
+         display:flex;
+         align-items: flex-end;
+         justify-content: center;
+      }
+    

@@ -1,0 +1,24 @@
+.navbar{
+    background-color: white;
+}
+.navbar-nav{
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+
+   }
+   @media screen and (max-width: 480px){
+    .navbar-nav {
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    }
+.nav-link{
+    color: black;    
+    font-weight: 500;
+    font-size: 18px;
+}
+.navbar-toggler{
+    color: black;
+}
