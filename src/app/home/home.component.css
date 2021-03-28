@@ -182,4 +182,54 @@
         color: #707070;
         background-color: white;
       }
+      .turmeric .btn:hover{
+        border: 2px solid #9ecec0;
+        background: #9ecec0;
+        color: #fff;
+      }
+      .spice-life{
+        text-align: justify;
+      }
+      .spice-life .p{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 36px;
+        color: #233037;
+        text-align: justify;
+        font-family: inherit;
+      }
+      .spice{
+        text-align: justify;
+       
+      }
+      .spice .img{
+       max-width: 200px;
+        width: 100%;
+        border-radius: 100px;
+      }
+      .spice .p{
+        color: #233037;
+        /* line-height: 32px; */
+        font-size: 18px;
+        text-align: justify;
+        font-weight: 400;
+       
+}
+.enjoy{
+  background: #303E47 0% 0% no-repeat padding-box;
+}
+.enjoy .span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: xx-large;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 480px){
+  .enjoy .span {
+     font-size: small;
+  
+    } } 
+
+      
     
