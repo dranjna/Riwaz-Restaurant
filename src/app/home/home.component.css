@@ -5,11 +5,7 @@
     background-repeat: no-repeat;
    background-position: center;
 }
-@media screen and (max-width: 767px){
-.homebanner {
-    height: 250px;
-}
-}
+
 .left_img{
     width: 100%;
 }
@@ -34,15 +30,7 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
-@media screen and (max-width: 480px){
-    .h1 {
-        color: #303E47;
-        font-size: 25px;
-        /* font-family: "museo"; */
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-    }
+
     .order-now{
         bottom: 40px;
         margin: auto;
@@ -57,11 +45,7 @@
         font-weight: 600;
         font-size: 16px;
     }
-    @media screen and (max-width: 480px){
-        .order-now {
-          width: 100%;
-        }
-    }
+   
     .pindi-chole{
         position: relative;
     }
@@ -84,61 +68,7 @@
         bottom: 0;
    
       }
-      @media only screen and  (max-width: 1257px)
-      {
-      .pindi-chole:hover .overlay {
-        height: 82%;
-        bottom: 0;
-   
-      }
-    }
-    @media only screen and  (min-width: 1257px)
-    {
-    .pindi-chole:hover .overlay {
-      height: 82%;
-      bottom: 0;
- 
-    }
-  }
-    @media only screen and (max-width: 842px)
-    {
-    .pindi-chole:hover .overlay {
-      height: 85%;
-      bottom: 0;
- 
-    }
-  }
-  @media only screen and (max-width: 772px)
-  {
-  .pindi-chole:hover .overlay {
-    height: 75%;
-    bottom: 0;
-
-  }
-  
-}
-
-  @media only screen and  (max-width: 698px)
-  {
-  .pindi-chole:hover .overlay {
-    height: 88%;
-    bottom: 0;
-
-  }
-}
-
-@media only screen and  (max-width: 576px){
-.pindi-chole:hover .overlay {
-    height: 86%;
-    bottom: 0;
-
-  } }   
-  @media only screen and (max-width: 480px){
-    .pindi-chole:hover .overlay {
-        height: 85%;
-        bottom: 0;
     
-      } } 
       .text {
         color: white;
         font-size: 20px;
@@ -225,11 +155,74 @@
   font-size: xx-large;
   transform: translate(-50%, -50%);
 }
+/* ************************media Queries******************************************/
 @media only screen and (max-width: 480px){
   .enjoy .span {
      font-size: small;
   
-    } } 
+    }
+    .h1 {
+      color: #303E47;
+      font-size: 25px;
+      /* font-family: "museo"; */
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 500;
+  }
+  .order-now {
+    width: 95%;
+   
+  }
+  .pindi-chole:hover .overlay {
+    height: 88%;
+    bottom: 0;
 
-      
+  } 
+} 
+
+@media only screen and  (max-width: 576px){
+  .pindi-chole:hover .overlay {
+    height: 90%;
+    bottom: 0;
+  
+  } }
+@media only screen and  (max-width: 698px)
+{
+.pindi-chole:hover .overlay {
+  height: 88%;
+  bottom: 0;
+
+}
+}
+@media screen and (max-width: 767px){
+    .homebanner {
+        height: 250px;
+    }
+    }
+
+    @media only screen and (max-width: 772px)
+    {
+    .pindi-chole:hover .overlay {
+      height: 75%;
+      bottom: 0;
+  
+    }
     
+  }
+ @media only screen and (max-width: 842px)
+    {
+    .pindi-chole:hover .overlay {
+      height: 85%;
+      bottom: 0;
+ 
+    }
+  }
+ @media only screen and  (max-width: 1257px)
+    {
+    .pindi-chole:hover .overlay {
+      height: 82%;
+      bottom: 0;
+ 
+    }
+  }
+  
+  

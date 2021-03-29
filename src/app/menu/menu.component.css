@@ -1,0 +1,192 @@
+.the-menu{
+    background-color:#1D2E36 ;
+    height: 40vh;
+    position: relative;
+  }
+  .the-menu .span{
+      color: #98CEC0;
+      font-size: 50px;
+      text-align: center;
+      font-weight: 400;
+  }
+  .food{
+    display: flex;
+    flex-direction: row;
+  }
+  .food .h2{
+    color: #98CEC0;
+    font-size: 40px;
+  }
+  .input input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 14px;
+  }
+
+  .btn{
+    background: transparent;
+    /* padding: 14px; */
+    margin-top: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    color: #707070;
+    margin-right: 5px;
+    border: 1px solid #707070;
+}
+.btn:hover{
+    color: white;
+    background-color:#98CEC0 ;
+}
+
+.order-now{
+   
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding:5px 15px;
+    z-index: 99;
+    position: absolute;
+    border:1px solid #303E47;
+    color: #303E47;;
+    font-weight: 600;
+    font-size: 16px;
+   margin-left: 44px;
+   
+}
+.order-now:hover{
+    background-color: #303E47;
+    color: white;
+}
+
+
+.pindi-chole{
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    background-color: #303E47;;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    color: white;
+    transition: .5s ease;
+  }
+ 
+  .pindi-chole:hover .overlay {
+    height: 82%;
+    bottom: 0;
+
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .signature{
+    color: #707070;
+    position: absolute;
+    top: 105px;
+    background: #fff;
+    font-size: 15px;
+    padding: 4px 11px 3px 12px;
+    border-radius: 0 10px 10px 0px;
+    font-weight: 500;
+  }
+ .pindi-chole .h2{
+    font-size: 24px;
+     height: 74px;
+     display:flex;
+     align-items: flex-end;
+     justify-content: center;
+  }
+
+  .minus-plus {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    display: flex;
+}
+.input {
+    width: 50px;
+    height: 22px;
+    margin: 0 1px;
+    border: none;
+    text-align: center;
+}
+.plus-btn{
+    background: transparent;
+    /* padding: 14px; */
+    margin-top: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    color: #707070;
+    margin-right: 5px;
+    border: 1px solid #303E47;
+    width: 185px;
+}
+.plus-btn:hover{
+    color: white;
+    background-color:#303E47 ;
+}
+.quantity{
+    font-size: 14px;
+    font-weight: bold;
+    width: 60%;
+}
+@media only screen and (max-width: 480px){
+    .food {
+     justify-content: center;
+    
+      }
+      .order-now{
+        margin-left: 8px;
+        width: 84%;
+      }
+      .plus-btn{
+        width: 185px;
+       }
+    }
+    @media (max-width: 768px){
+    .order-now {
+        margin-left:32px
+    }
+    
+   
+  }
+    @media only screen and (max-width: 1200px){
+        .quantity {
+         justify-content: center;
+        width: 55%;
+          }
+          .order-now{
+            width: 76%;
+            margin-left: 32px;
+          }
+          
+         
+        }
+
+ 

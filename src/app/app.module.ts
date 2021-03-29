@@ -9,6 +9,7 @@ import { BannerComponent } from './banner/banner.component';
 import { HomeComponent } from './home/home.component';
 import{ RouterModule} from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { from } from 'rxjs';
 
 @NgModule({
@@ -23,7 +24,8 @@ import { from } from 'rxjs';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    BrowserAnimationsModule
   ],
   exports: [RouterModule],
   providers: [],
@@ -33,3 +35,4 @@ import { from } from 'rxjs';
 export class AppModule { 
  
 }
+
