@@ -12,9 +12,10 @@ const routes: Routes=[
   {
     path:'header', component:HeaderComponent
 },
-{path:'banner', component:BannerComponent, pathMatch:'full'},
+{path:'banner', component:BannerComponent},
 {path:'menu', component:MenuComponent},
-{path:'home', component:HomeComponent}
+{path:'home', component:HomeComponent},
+{path:'', component:HomeComponent , pathMatch:'full'}
 ];
 
 @NgModule({

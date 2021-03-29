@@ -1,5 +1,5 @@
 .banner-logo{
-    background-color:#1D2E36 ;
+background-color:#1D2E36 ;
 height: 100vh;
 position: relative;
 }
@@ -14,6 +14,7 @@ position: relative;
     max-width: 540px;
 }
 .arrow{
+    
     position: absolute;
     bottom: 20px;
     left: 0;
@@ -32,3 +33,9 @@ position: relative;
     font-size: 65px;
     cursor: pointer;
 }
+.banner-content{
+    background-color: #8FCBBD;
+    height: 5vh;
+    position: relative;
+}
+

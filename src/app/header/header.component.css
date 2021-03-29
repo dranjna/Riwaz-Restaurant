@@ -7,13 +7,7 @@
     align-items: flex-end;
 
    }
-   @media screen and (max-width: 480px){
-    .navbar-nav {
-        justify-content: space-between;
-        width: 100%;
-        align-items: center;
-    }
-    }
+   
 .nav-link{
     color: black;    
     font-weight: 500;
@@ -22,3 +16,11 @@
 .navbar-toggler{
     color: black;
 }
+/* media queries*/
+@media screen and (max-width: 480px){
+    .navbar-nav {
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    }
